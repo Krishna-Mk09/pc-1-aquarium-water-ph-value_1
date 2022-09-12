@@ -2,8 +2,14 @@ package com.jap;
 
 import java.util.Scanner;
 
+/**
+ * The class PhLevelAnalyser has a method getPhValueOfWater which takes an integer as input and returns a string
+ */
 public class PhLevelAnalyser
 {
+    /**
+     * It takes the phLevel as input and returns the status of the aquarium
+     */
     public static void main(String[] args) {
         String statusOfAquarium = "";
         Scanner scanner = new Scanner(System.in);
@@ -14,6 +20,7 @@ public class PhLevelAnalyser
         System.out.println(data);
     }
 
+    // A method which takes an integer as input and returns a string.
     public String getPhValueOfWater(int phLevel){
 
     String statusOfAquarium="";
